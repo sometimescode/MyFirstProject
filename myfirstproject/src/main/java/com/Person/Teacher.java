@@ -8,6 +8,12 @@ public class Teacher extends Person {
         this.degree_level = degree_level;
     }
 
+    //act 2
+    public Teacher(String location, String first_name, String last_name, int age, String degree_level) {
+        super(location, first_name, last_name, age);
+        this.degree_level = degree_level;
+    }
+
     public String getDegree_level() {
         return degree_level;
     }
