@@ -35,7 +35,7 @@ public final class App {
         System.out.println("-------------------------");
 
         Student studentWithBike = new Student("Jonny", "Doe", 20, 4, "Lahug");
-        Bike kawasakiBike = new Bike("Kawasaki Z400", 2, "399 cc", 45, 20, 20);
+        Bike kawasakiBike = new Bike(2, "399 cc", 45, 20, 20, "Kawasaki Z400");
 
         studentWithBike.travel(kawasakiBike);
 

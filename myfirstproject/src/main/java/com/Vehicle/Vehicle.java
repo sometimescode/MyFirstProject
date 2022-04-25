@@ -3,6 +3,7 @@ package com.Vehicle;
 public class Vehicle {
     private int no_wheels;
     private String engine;
+    //act 2
     private double gas;
     private double gas_consumption;
     private String vehicle_name;
@@ -13,7 +14,7 @@ public class Vehicle {
     }
 
     //act 2
-    public Vehicle(String vehicle_name, int no_wheels, String engine, double gas, double gas_consumption) {
+    public Vehicle(int no_wheels, String engine, double gas, double gas_consumption, String vehicle_name) {
         this.no_wheels = no_wheels;
         this.engine = engine;
         this.gas = gas;
