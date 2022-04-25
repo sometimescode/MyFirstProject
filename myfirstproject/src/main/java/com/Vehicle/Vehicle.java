@@ -13,7 +13,7 @@ public class Vehicle {
     }
 
     //act 2
-    public Vehicle(double gas, double gas_consumption, String vehicle_name, int no_wheels, String engine) {
+    public Vehicle(String vehicle_name, int no_wheels, String engine, double gas, double gas_consumption) {
         this.no_wheels = no_wheels;
         this.engine = engine;
         this.gas = gas;

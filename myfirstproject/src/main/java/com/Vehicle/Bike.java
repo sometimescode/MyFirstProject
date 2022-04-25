@@ -9,8 +9,8 @@ public class Bike extends Vehicle {
     }
 
     //act 2 - used
-    public Bike(double gas, double gas_consumption, String vehicle_name, int no_wheels, String engine, double wheelie_power) {
-        super(gas, gas_consumption, vehicle_name, no_wheels, engine);
+    public Bike(String vehicle_name, int no_wheels, String engine, double wheelie_power, double gas, double gas_consumption) {
+        super(vehicle_name, no_wheels, engine, gas, gas_consumption);
         this.wheelie_power = wheelie_power;
     }
 

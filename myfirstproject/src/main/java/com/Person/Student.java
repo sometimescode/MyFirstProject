@@ -9,8 +9,8 @@ public class Student extends Person {
     }
 
     //act 2 - used
-    public Student(String location, String first_name, String last_name, int age, int year) {
-        super(location, first_name, last_name, age);
+    public Student(String first_name, String last_name, int age, int year, String location) {
+        super(first_name, last_name, age, location);
         this.year = year;
     }
 

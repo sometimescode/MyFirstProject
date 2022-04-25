@@ -18,11 +18,13 @@ public class Person {
         this.age = age;
     }
 
-    public Person(String location, String first_name, String last_name, int age) {
+    //act 2
+    public Person(String first_name, String last_name, int age, String location) {
         this.first_name = first_name;
         this.last_name = last_name;
         this.age = age;
         this.location = location;
+        this.travel_vehicle = "";
     }
 
     public void travel(Vehicle vehicle) {

@@ -34,12 +34,12 @@ public final class App {
         //act 2
         System.out.println("-------------------------");
 
-        Student studentWithBike = new Student("Lahug", "Jonny", "Doe", 20, 4);
-        Bike kawasakiBike = new Bike(20, 20, "Kawasaki Z400", 2, "399 cc", 45);
+        Student studentWithBike = new Student("Jonny", "Doe", 20, 4, "Lahug");
+        Bike kawasakiBike = new Bike("Kawasaki Z400", 2, "399 cc", 45, 20, 20);
 
         studentWithBike.travel(kawasakiBike);
 
-        if(studentWithBike.getTravel_vehicle() != null) {             
+        if(studentWithBike.getTravel_vehicle() != "") {             
             System.out.println(studentWithBike.getFirst_name() + " " + studentWithBike.getLast_name() +
             " traveled to " + studentWithBike.getLocation() +
             " using " + studentWithBike.getTravel_vehicle());
